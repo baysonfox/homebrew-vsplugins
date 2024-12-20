@@ -7,7 +7,7 @@ This repository is a way to automate the installation of plugins for [VapourSynt
 
 Having the package manager [Homebrew](https://brew.sh/) installed is mandatory (duh).
 
-To begin, tap this repo: `brew tap bl4cc4t/vsplugins`.
+To begin, tap this repo: `brew tap baysonfox/vsplugins`.
 
 To install a plugin, simply use `brew install --HEAD vsp-<pluginname>`
 
@@ -28,7 +28,7 @@ Since most of the plugins do not appear under `/usr/local/lib/vapoursynth` autom
 
 To link the plugins, simply execute the following command:
 ```sh
-/usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh
+/opt/homebrew/Library/Taps/baysonfox/homebrew-vsplugins/linkvsp.sh
 ```
 
 ## List of Plugins (and latest version known to work)

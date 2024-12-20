@@ -12,7 +12,7 @@ class VspRemapframes < Formula
 
   # fixed in 0232654:
   # patch do
-  #   url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-remapframes.diff"
+  #   url "https://raw.githubusercontent.com/baysonfox/homebrew-vsplugins/master/patches/vsp-remapframes.diff"
   #   sha256 "b24c8b4b54199cb055addcba9209eddeb24d58d54a87582bdb7442aaecc89a60"
   # end
 
@@ -29,6 +29,6 @@ class VspRemapframes < Formula
     ohai ""
     ohai "When you’re done installing plugins:"
     ohai "Please run linkvsp.sh to link the libraries:"
-    ohai "`/usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh`"
+    ohai "`/opt/homebrew/Library/Taps/baysonfox/homebrew-vsplugins/linkvsp.sh`"
   end
 end
