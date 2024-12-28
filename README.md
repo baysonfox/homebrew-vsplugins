@@ -23,7 +23,7 @@ brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-b
 ## Linking
 
 
-Since most of the plugins do not appear under `/usr/local/lib/vapoursynth` automatically, doing so requires an extra step.
+Since most of the plugins do not appear under `/opt/Homebrew/lib/vapoursynth` automatically, doing so requires an extra step.
 (It’s impossible to link during the installation via hombrew due to some restrictions when using third party taps).
 
 To link the plugins, simply execute the following command:
